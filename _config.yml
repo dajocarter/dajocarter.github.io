@@ -23,13 +23,21 @@ defaults:
 permalink: pretty
 email: dajocarter@gmail.com
 description: David Carter. A full-time Googler and web developer.
-baseurl: 
-url: 
+url: https://dajocarter.github.io
+sass:
+  style: compressed
 twitter_username: dajocarter
 github_username: dajocarter
 markdown: kramdown
 gems:
 - jekyll-feed
+- jekyll-sitemap
 exclude:
 - Gemfile
 - Gemfile.lock
+- README.md
+- ".gitignore"
+- node_modules/
+- bower_components/
+- package.json
+- webpack.config.js
